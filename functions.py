@@ -14,7 +14,7 @@ def chatbox():
     """
     
     # Opening message that directs patient to choose an option and get started with chatbox interaction
-    print("Welcome to Triton clinic! I'm happy to assist! Press 1 to view our hours. Press 2 to create an appointment. Press 3 to view your appointment.")
+    print("Welcome to Triton clinic! I'm happy to assist! Press 1 to view our hours. Press 2 to create an appointment. Press 3 to view your appointment. Entering 'bye' at any time during the chat will allow you to exit.")
 
     # An instance of ClinicScheduling created to allow patient to schedule appointments
     from my_modules.classes import ClinicScheduling
